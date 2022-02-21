@@ -30,7 +30,7 @@ def generate_password():
 	gen_pass = Credential.generate_password()
 	return gen_pass
 
-def # create_credential(user_name,site_name,account_name,password):
+def  create_credential(user_name,site_name,account_name,password):
 	'''
 	Function to create a new credential
 	'''
@@ -80,12 +80,12 @@ def main():
 			print("-"*60)
 			print(' ')
 			print('To login, enter your account details:')
-			user_name = input('Enter your first name - ').strip()
+			user_name = input('Enter your  first name - ').strip()
 			password = str(input('Enter your password - '))
 			user_exists = verify_user(user_name,password)
 			if user_exists == user_name:
 				print(" ")
-				print(f'Welcome {user_name}. Please choose an option to continue.')
+				print(f'Welcome {user_name}. Please select an option to continue.')
 				print(' ')
 				while True:
 					print("-"*60)
