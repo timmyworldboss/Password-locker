@@ -32,8 +32,8 @@ class Credential:
 	Class to create  account credentials, generate passwords and save their information
 	'''
 	# Class Variables
-	credentials_ =[]
-	user_credentials_list = [0]
+	credentials_list =[]
+	user_credentials_list = []
 	@classmethod
 	def check_user(cls,first_name,password):
 		'''
