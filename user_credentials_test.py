@@ -49,9 +49,12 @@ class TestCredentials(unittest.TestCase):
 		for user in User.users_list:
 			if user.first_name == user2.first_name and user.password == user2.password:
 				current_user = user.first_name
-		return current_user
+		return self.new_method(current_user)
 
 		self.assertEqual(current_user,Credential.check_user(user2.password,user2.first_name))
+
+ def new_method(self, current_user):
+     return current_user
 
 	def setUp(self):
 		'''
