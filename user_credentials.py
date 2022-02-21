@@ -17,8 +17,8 @@ class User:
 		'''
 
 		# instance variables
-		self.first_name = first_name
-		self.last_name = last_name
+		self.first_name = first_nam
+		self.last_name = last_nam
 		self.password = password
 
 	def save_user(self):
@@ -32,7 +32,7 @@ class Credential:
 	Class to create  account credentials, generate passwords and save their information
 	'''
 	# Class Variables
-	credentials_list =[]
+	credentials_ =[]
 	user_credentials_list = [0]
 	@classmethod
 	def check_user(cls,first_name,password):
