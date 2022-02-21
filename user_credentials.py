@@ -1,6 +1,6 @@
-#import pyperclip
-#import random
-#import string
+import pyperclip
+import random
+import string
 
 # Global Variables
 global users_list 
