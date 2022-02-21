@@ -35,15 +35,13 @@ class TestCredentials(unittest.TestCase):
 	Test class that defines test cases for the credentials class behaviours.
 
 	Args:
-	    unittest.TestCase: helps in creating test cases
+	    unittest.TestCase: helps in creating test case
 	'''
 	def test_check_user(self):
 		'''
 		Function to test whether the login in function check_user works as expected
 		'''
-		self.new_user = User('Mary','Ng\'ang\'a','pswd100')
-		self.new_user.save_user()
-		user2 = User('Ken','Ng\'ang\'a','pswd100')
+		
 		user2.save_user()
 
 		for user in User.users_list:
