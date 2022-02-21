@@ -1,6 +1,6 @@
-import pyperclip
-import random
-import string
+#import pyperclip
+#import random
+#import string
 
 # Global Variables
 global users_list 
@@ -33,7 +33,7 @@ class Credential:
 	'''
 	# Class Variables
 	credentials_list =[]
-	user_credentials_list = []
+	user_credentials_list = [0]
 	@classmethod
 	def check_user(cls,first_name,password):
 		'''
